@@ -1,0 +1,12 @@
+{
+  "name": "rules_esb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "resolutions": {
+    "ts-log": "file:local/ts-log"
+  },
+  "dependencies": {
+    "@graphql-codegen/cli": "2.6.4"
+  }
+}

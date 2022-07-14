@@ -1,0 +1,9 @@
+load("@aspect_rules_js//js:defs.bzl", "js_binary")
+
+js_binary(
+    name = "src",
+    entry_point = "src.js",
+    data = [
+      "//:node_modules/@graphql-codegen/cli"
+    ]
+)
